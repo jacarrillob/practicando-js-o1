@@ -7,14 +7,12 @@
     <title>JS-PRÁCTICO</title>
 </head>
 <body>
-    <h1 class="mi-title">JS-PRÁCTICO</h1>
-    <p class="p1">Parrafo uno</p>
-    <p id="p2">Parrafo dos</p>
-    <input type="text" placeholder="Comience a escribir..." value="Bienvenido">
+    <h1>JS-PRÁCTICO</h1>
+    <input onchange="console.log('Cambio el input')" id="num1" type="text" placeholder="Comience a escribir...">
+    <input id="num2" type="text" placeholder="Comience a escribir...">
 
-    <div id="container">
-
-    </div>
+    <button id="btnCalcular" onclick="btnClick()">Calcular</button>
+   <p id="suma"></p>
     
     <script src="/js/main.js"></script>
 </body>
