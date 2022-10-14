@@ -8,12 +8,14 @@
 </head>
 <body>
     <h1>JS-PRÁCTICO</h1>
-    <input onchange="console.log('Cambio el input')" id="num1" type="text" placeholder="Comience a escribir...">
-    <input id="num2" type="text" placeholder="Comience a escribir...">
-
-    <button id="btnCalcular" onclick="btnClick()">Calcular</button>
-   <p id="suma"></p>
+    <form id="miform" action="">
+        <input onchange="console.log('Cambio el input')" id="num1" type="text" placeholder="Comience a escribir...">
+        <input id="num2" type="text" placeholder="Comience a escribir...">
     
+        <button type="submit" id="btnCalcular">Calcular</button>
+       <p id="suma"></p>
+    </form>    
+    <img id="imgDt" onmouseover="bother()" src="/img/img1.png">
     <script src="/js/main.js"></script>
-</body>
+</body> 
 </html>
